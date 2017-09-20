@@ -4,7 +4,7 @@
 
 A small set of algorithms as I learn them, implemented in TypeScript 🤓
 
-# Try them out!
+## Try them out!
 ```sh
 $ npm test
 ```
