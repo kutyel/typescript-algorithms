@@ -7,7 +7,7 @@ const pkg = require('./package.json')
 export default {
   input: 'compiled/index.js',
   output: [
-    { file: pkg.main, name: 'tsAlgorithms', format: 'umd' },
+    { file: pkg.main, name: 'ts-algorithms', format: 'umd' },
     { file: pkg.module, format: 'es' },
   ],
   sourcemap: true,

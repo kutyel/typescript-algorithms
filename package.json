@@ -1,21 +1,21 @@
 {
-  "name": "typescript-algorithms",
-  "version": "0.0.0",
-  "description": "",
+  "name": "ts-algorithms",
+  "version": "0.1.0",
+  "description": "🤓 A small set of algorithms as I learn them, implemented in TypeScript",
   "keywords": [
     "typescript",
     "algorithms"
   ],
-  "main": "dist/typescript-algorithms.umd.js",
-  "module": "dist/typescript-algorithms.es5.js",
-  "typings": "dist/types/typescript-algorithms.d.ts",
+  "main": "dist/ts-algorithms.umd.js",
+  "module": "dist/ts-algorithms.es5.js",
+  "typings": "dist/types/ts-algorithms.d.ts",
   "files": [
     "dist"
   ],
   "author": "kutyel <flaviocorpa@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kutyel/typescript-algorithms.git"
   },
   "license": "MIT",
   "engines": {
