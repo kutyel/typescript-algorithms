@@ -1,7 +1,7 @@
 /**
  * Idiomatic bubble sort implementation with early breaking
  */
-export default (array: number[]): number[] => {
+export default <T>(array: T[]): T[] => {
   array = [...array]
   while (true) {
     let swapped = false
