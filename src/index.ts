@@ -7,6 +7,7 @@ import insertionSort from './insertionSort'
 import isPalindrome from './palindrome'
 import mergeSort from './mergeSort'
 import quickSort from './quickSort'
+import repeatedItem from './repeatedItem'
 
 export default {
   areAnagrams,
@@ -18,4 +19,5 @@ export default {
   isPalindrome,
   mergeSort,
   quickSort,
+  repeatedItem,
 }

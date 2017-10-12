@@ -1,6 +1,6 @@
 /**
  * Searches for specific element in a given sorted array
- * @returns the index of the lement (-1 if its not found)
+ * @returns the index of the element (-1 if its not found)
  */
 export default function binarySearch<T>(
   list: T[],
