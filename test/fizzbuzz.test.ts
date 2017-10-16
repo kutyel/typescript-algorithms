@@ -9,17 +9,17 @@ describe('FizzBuzz', () => {
   it('isBuzz() should check correcty multiples of 5', () =>
     expect([5, 10, 15, 20, 25].every(isBuzz)).toBeTruthy())
 
-  it('should return "Fizz" for multiples of 3', () =>
+  test('should return "Fizz" for multiples of 3', () =>
     aux.forEach(
       (x, i) => isFizz(i + 1) && !isBuzz(i + 1) && expect(x).toBe('Fizz')
     ))
 
-  it('should return "Buzz" for multiples of 5', () =>
+  test('should return "Buzz" for multiples of 5', () =>
     aux.forEach(
       (x, i) => isBuzz(i + 1) && !isFizz(i + 1) && expect(x).toBe('Buzz')
     ))
 
-  it('should return "FizzBuzz" for multiples of 3 and 5', () =>
+  test('should return "FizzBuzz" for multiples of 3 and 5', () =>
     aux.forEach(
       (x, i) => isFizz(i + 1) && isBuzz(i + 1) && expect(x).toBe('FizzBuzz')
     ))

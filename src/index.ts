@@ -8,6 +8,7 @@ import isPalindrome from './palindrome'
 import mergeSort from './mergeSort'
 import quickSort from './quickSort'
 import repeatedItem from './repeatedItem'
+import Stack from './stack'
 
 export default {
   areAnagrams,
@@ -20,4 +21,5 @@ export default {
   mergeSort,
   quickSort,
   repeatedItem,
+  Stack,
 }

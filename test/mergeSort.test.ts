@@ -7,10 +7,10 @@ describe('Merge Sort', () => {
   test('should merge various arrays of strings', () =>
     expect(merge(['a', 'c'], ['b', 'd', 'e']).join('')).toBe('abcde'))
 
-  it('should sort an array of numbers', () =>
+  test('should sort an array of numbers', () =>
     expect(mergeSort([4, 3, 2, 1])).toEqual([1, 2, 3, 4]))
 
-  it('should sort an array of strings', () =>
+  test('should sort an array of strings', () =>
     expect(
       mergeSort(['cherries', 'kiwi', 'grapes', 'avocado', 'pineapple', 'peach'])
     ).toEqual(['avocado', 'cherries', 'grapes', 'kiwi', 'peach', 'pineapple']))
