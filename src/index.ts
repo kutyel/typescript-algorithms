@@ -6,6 +6,7 @@ import fizzBuzz from './fizzbuzz'
 import insertionSort from './insertionSort'
 import isPalindrome from './palindrome'
 import mergeSort from './mergeSort'
+import Queue from './queue'
 import quickSort from './quickSort'
 import repeatedItem from './repeatedItem'
 import Stack from './stack'
@@ -19,6 +20,7 @@ export default {
   insertionSort,
   isPalindrome,
   mergeSort,
+  Queue,
   quickSort,
   repeatedItem,
   Stack,
