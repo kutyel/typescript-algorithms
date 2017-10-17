@@ -5,6 +5,7 @@ import deepClone from './deepClone'
 import fizzBuzz from './fizzbuzz'
 import insertionSort from './insertionSort'
 import isPalindrome from './palindrome'
+import LinkedList from './linkedList'
 import mergeSort from './mergeSort'
 import Queue from './queue'
 import quickSort from './quickSort'
@@ -19,6 +20,7 @@ export default {
   fizzBuzz,
   insertionSort,
   isPalindrome,
+  LinkedList,
   mergeSort,
   Queue,
   quickSort,
