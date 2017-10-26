@@ -3,6 +3,7 @@ import binarySearch from './binarySearch'
 import bubbleSort from './bubbleSort'
 import deepClone from './deepClone'
 import fizzBuzz from './fizzbuzz'
+import Heap from './heap'
 import insertionSort from './insertionSort'
 import isPalindrome from './palindrome'
 import LinkedList from './linkedList'
@@ -18,6 +19,7 @@ export default {
   bubbleSort,
   deepClone,
   fizzBuzz,
+  Heap,
   insertionSort,
   isPalindrome,
   LinkedList,
