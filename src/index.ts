@@ -4,6 +4,7 @@ import bubbleSort from './bubbleSort'
 import deepClone from './deepClone'
 import fizzBuzz from './fizzbuzz'
 import Heap from './heap'
+import heapSort from './heapSort'
 import insertionSort from './insertionSort'
 import isPalindrome from './palindrome'
 import LinkedList from './linkedList'
@@ -20,6 +21,7 @@ export default {
   deepClone,
   fizzBuzz,
   Heap,
+  heapSort,
   insertionSort,
   isPalindrome,
   LinkedList,
