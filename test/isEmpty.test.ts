@@ -1,5 +1,4 @@
-const isEmpty = (x?: any) =>
-  !x || !(Array.isArray(x) ? x : Object.keys(x)).length
+import isEmpty from '../src/isEmpty'
 
 describe('isEmpty', () => {
   test('should work with falsy values', () => {
@@ -9,8 +8,7 @@ describe('isEmpty', () => {
     expect(isEmpty(undefined)).toBe(true)
   })
 
-  // FIXME: fix case with numbers 🤔
-  test.skip('should work with numbers', () => {
+  test('should work with numbers', () => {
     expect(isEmpty(1)).toBe(false)
     expect(isEmpty(0)).toBe(true)
   })

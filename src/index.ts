@@ -6,6 +6,7 @@ import fizzBuzz from './fizzbuzz'
 import Heap from './heap'
 import heapSort from './heapSort'
 import insertionSort from './insertionSort'
+import isEmpty from './isEmpty'
 import isPalindrome from './palindrome'
 import LinkedList from './linkedList'
 import mergeSort from './mergeSort'
@@ -23,6 +24,7 @@ export default {
   Heap,
   heapSort,
   insertionSort,
+  isEmpty,
   isPalindrome,
   LinkedList,
   mergeSort,
