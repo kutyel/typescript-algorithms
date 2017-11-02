@@ -14,7 +14,7 @@ import Queue from './queue'
 import quickSort from './quickSort'
 import repeatedItem from './repeatedItem'
 import Stack from './stack'
-import { toDecimal as romanToDecimal } from './roman'
+import { toDecimal as romanToDecimal, toRoman } from './roman'
 
 export default {
   areAnagrams,
@@ -34,4 +34,5 @@ export default {
   repeatedItem,
   romanToDecimal,
   Stack,
+  toRoman,
 }
