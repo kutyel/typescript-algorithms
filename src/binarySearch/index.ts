@@ -9,7 +9,7 @@ export default function binarySearch<T>(
   high = list.length - 1
 ): number {
   if (high < low) return -1
-  const mid = Math.round((low + high) / 2)
+  const mid = (low + high) >>> 1
   return list[mid] === element
     ? mid
     : element < list[mid]
