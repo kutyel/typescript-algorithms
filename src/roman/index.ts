@@ -1,14 +1,4 @@
 const ROMAN: { [index: string]: number } = {
-  I: 1,
-  V: 5,
-  X: 10,
-  L: 50,
-  C: 100,
-  D: 500,
-  M: 1000,
-}
-
-const LOOKUP: { [index: string]: number } = {
   M: 1000,
   CM: 900,
   D: 500,
@@ -33,12 +23,11 @@ export const toDecimal = (num: string) =>
       0
     )
 
-export const toRoman = (num: number, str = '') => {
-  Object.entries(LOOKUP).forEach(([key, value]) => {
+export const toRoman = (num: number) =>
+  Object.entries(ROMAN).reduce((str, [key, value]) => {
     while (num >= value) {
       num -= value
       str += key
     }
-  })
-  return str
-}
+    return str
+  }, '')
