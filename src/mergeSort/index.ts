@@ -8,7 +8,7 @@ export const merge = <T>(left: T[], right: T[]): T[] => {
   while (i + j < left.length + right.length) {
     const x = left[i]
     const y = right[j]
-    if (y === undefined || x < y) {
+    if (!y || x < y) {
       array.push(x)
       i++
     } else {
@@ -18,6 +18,7 @@ export const merge = <T>(left: T[], right: T[]): T[] => {
   }
   return array
 }
+
 /**
  * Merge sort algorithm recursive implementation
  */
