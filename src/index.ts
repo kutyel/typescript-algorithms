@@ -2,6 +2,7 @@ import areAnagrams from './anagram'
 import binarySearch from './binarySearch'
 import bubbleSort from './bubbleSort'
 import deepClone from './deepClone'
+import deepEquals from './deepEquals'
 import deepMerge from './deepMerge'
 import fizzBuzz from './fizzbuzz'
 import Heap from './heap'
@@ -22,6 +23,7 @@ export default {
   binarySearch,
   bubbleSort,
   deepClone,
+  deepEquals,
   deepMerge,
   fizzBuzz,
   Heap,
